@@ -15,8 +15,43 @@
       rel="stylesheet"
       href="./style.css"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="Robot"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Moyo header</h1>
+    <header class="header-nav">
+      <a class="nav-icon">
+        <img
+          src="./images/logo.png"
+          alt="logo-in-nav"
+        />
+      </a>
+      <nav class="nav">
+        <a class="nav-link is-active">APPLE</a>
+        <a class="nav-link">SAMSUNG</a>
+        <a class="nav-link">SMARTPHONES</a>
+        <a
+          class="nav-link"
+          data-qa="hover"
+        >
+          LAPTOPS & COMPUTERS
+        </a>
+        <a class="nav-link">GADGETS</a>
+        <a class="nav-link">TABLETS</a>
+        <a class="nav-link">PHOTO</a>
+        <a class="nav-link">VIDEO</a>
+      </nav>
+    </header>
   </body>
 </html>
