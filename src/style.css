@@ -9,13 +9,12 @@ body {
 }
 
 .header-nav {
-  margin: 0 50px;
+  padding: 0 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  height: 60px;
 }
 
 .header {
@@ -26,7 +25,6 @@ body {
 .nav-icon {
   display: flex;
   align-items: center;
-  justify-self: flex-start;
 }
 
 .link-in-nav {
@@ -53,11 +51,11 @@ body {
   color: var(--blue);
 }
 
-.nav li:first-child .nav-link {
+.nav .nav__item-1 {
   margin-left: 0;
 }
 
-.nav li:last-child .nav-link {
+.nav .nav__item-2 {
   margin-right: 0;
 }
 
